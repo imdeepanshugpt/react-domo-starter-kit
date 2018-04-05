@@ -1,0 +1,12 @@
+{
+  "short_name": "Domo React App",
+  "name": "Domo React App Sample",
+  "version": "1.0.0",
+  "size": {
+    "width": 2,
+    "height": 2
+  },
+  "mapping": [
+
+  ]
+}
