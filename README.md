@@ -12,15 +12,24 @@ This is repo created to give users an easy starting point when developing a cust
    ```
 
 2. Install local dependencies
-   - cd into the react-base directory
-   ```cd react-base```
-   - Install node modules
-   ```npm install```
+   cd into the react-base directory
+   ```
+   cd react-base
+   ```
+   Install node modules
+   ```
+   npm install
+   ```
 
 3. Serve the application for development
-   - Inside the react-base directory run the following command to build the application.
-   ```npm run build```
-   - Change into the "build" diretory and run: ```domo dev```
-     - You will need to be logged in to run domo dev.  To login, run `domo login` and follow the prompts.
+   Inside the react-base directory run the following command to build the application.
+   ```
+   npm run build
+   ```
+   Change into the "build" diretory and run: 
+   ```
+   domo dev
+   ```
+   **Note:** You will need to be logged in to run `domo dev`.  To login, run `domo login` and follow the prompts.
 
 ##
