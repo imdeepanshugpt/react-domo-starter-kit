@@ -7,7 +7,9 @@ This is repo created to give users an easy starting point when developing a cust
      - Nodejs: 6.9.6
      - npm: 3.10.10
    - Domo cli 
-   ```npm install -g ryuu```
+   ```
+   npm install -g ryuu
+   ```
 
 2. Install local dependencies
    - cd into the react-base directory
