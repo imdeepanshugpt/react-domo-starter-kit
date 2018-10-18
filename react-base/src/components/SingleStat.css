@@ -1,0 +1,48 @@
+.stat-card {
+  width: 20%;
+  margin: 0 2.5% 30px;
+  display: inline-block;
+  min-height: 80px;
+  position: relative;
+}
+
+.stat-icon {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #cccccc;
+  color: rgb(248, 248, 248);
+}
+
+.stat-info {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 90%;
+  min-height: 60px;
+  background: linear-gradient(45deg, rgb(247, 247, 247), rgb(241, 241, 241));
+  padding: 0 5% 5%;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #cccccc;
+  color: rgb(88, 88, 88);
+}
+
+.stat {
+  width: 100%;
+  text-align: right;
+  font-size: 34px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.stat-copy {
+  font-weight: 300;
+  font-size: 12px;
+}

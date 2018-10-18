@@ -1,0 +1,21 @@
+.opt-container {
+  width: 100%;
+  background: linear-gradient(45deg, rgb(247, 247, 247), rgb(241, 241, 241));
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #cccccc;
+  color: rgb(88, 88, 88);
+  box-sizing: border-box;
+}
+
+.opt-dragging {
+  width: 100%;
+  background: linear-gradient(45deg, rgb(247, 247, 247), rgb(241, 241, 241));
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #cccccc;
+  color: rgb(88, 88, 88);
+  box-sizing: border-box;
+}

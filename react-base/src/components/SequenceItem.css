@@ -1,0 +1,30 @@
+.item-container {
+  width: 100%;
+  background: linear-gradient(45deg, rgb(247, 247, 247), rgb(241, 241, 241));
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #cccccc;
+  color: rgb(88, 88, 88);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-dragging {
+  width: 100%;
+  background: linear-gradient(45deg, rgb(247, 247, 247), rgb(241, 241, 241));
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: 2px dashed rgb(88, 88, 88);
+  color: rgba(88, 88, 88, 0);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  opacity: 0.5;
+}
+
+.item-text {
+  flex-grow: 3;
+}

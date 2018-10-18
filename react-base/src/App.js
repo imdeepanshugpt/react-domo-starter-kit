@@ -1,30 +1,44 @@
 import React, { Component } from 'react';
 import './App.css';
 import * as domo from 'ryuu.js';
+import CompareTouchPage from './containers/CompareTouchPage';
+import { firstLoad, getComparisonsData } from './utils/data';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: [{salesperson: "Loading..."}],
+      data: [],
+      formattedData: [],
     }
 
-    //this.getDomoData('Sales');
+    this.getDomoData('Touchpoints', 'filter=gift_date last 3 months');
   }
 
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to the React-Domo Starter</h1>
-        </header>
-        <p>Last sale made by: {this.state.data[0].salesperson}</p>
+        <CompareTouchPage 
+          data={this.state.formattedData} 
+          reload={this.reloadData} 
+          setDateRange={this.setDateRange} 
+        />
       </div>
     );
   }
 
   setDomoData = (data) => {
-    this.setState({data});
+    console.log("Data fetched...");
+    firstLoad(data);
+    this.setState({data, formattedData: getComparisonsData()});
+  }
+
+  reloadData = () => {
+    this.setState({formattedData: getComparisonsData()});
+  }
+
+  setDateRange = (filterRange) => {
+    this.getDomoData('Touchpoints', `filter=${filterRange}`)
   }
 
   getDomoData(alias, params = '') {

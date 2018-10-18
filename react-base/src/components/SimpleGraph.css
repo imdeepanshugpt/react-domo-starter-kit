@@ -1,0 +1,49 @@
+.simpleGraph {
+  width: 45%;
+  margin: 0 2.5% 20px;
+  display: inline-block;
+  min-height: 350px;
+  position: relative;
+}
+
+.chart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 2%;
+  width: 96%;
+  height: 300px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #cccccc;
+  color: rgb(248, 248, 248);
+}
+
+.chart canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  position: absolute;
+  top: 270px;
+  left: 0;
+  width: 96%;
+  min-height: 60px;
+  background: linear-gradient(45deg, rgb(247, 247, 247), rgb(241, 241, 241));
+  padding: 0 2% 2%;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #cccccc;
+  color: rgb(88, 88, 88);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.copy {
+  font-weight: 300;
+  font-size: 12px;
+}

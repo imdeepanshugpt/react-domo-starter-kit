@@ -1,0 +1,24 @@
+.seq-subheading {
+  width: 94%;
+  margin: 3%;
+  border-bottom: solid 1px #505050;
+  color: #505050;
+}
+
+.seq-sub {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 5px;
+}
+
+.options-container {
+  width: 40%;
+  margin: 0 5% 10px 5%;
+  box-sizing: border-box;
+  padding: 10px 15px 0 5px;
+  height: 175px;
+  overflow-y: scroll;
+  border-bottom: 1px solid #505050;
+  display: inline-block;
+  background: rgb(230, 230, 230);
+}

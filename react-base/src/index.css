@@ -1,5 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+}
+
+.red-back {
+  background: linear-gradient(45deg, rgb(243, 135, 162), rgb(226, 45, 45));
+}
+
+.blue-back {
+  background: linear-gradient(45deg, rgb(56, 173, 241), rgb(80, 70, 224));
+}
+
+.green-back {
+  background: linear-gradient(45deg, rgb(63, 230, 166), rgb(90, 165, 56));
+}
+
+.orange-back {
+  background: linear-gradient(45deg, rgb(240, 204, 86), rgb(223, 97, 25));
+}
+
+.purple-back {
+  background: linear-gradient(45deg, rgb(200, 61, 228), rgb(139, 28, 230));
+}
+
+.yellow-back {
+  background: linear-gradient(45deg, rgb(230, 240, 91), rgb(238, 206, 23));
+}
+
+.up-fix {
+  padding-top: 6px;
+}
+
+.down-fix {
+  padding-bottom: 6px;
+}
+
+.light-row {
+  background: #f3f3f3;
+}
+
+.dark-row {
+  background: #dfdfdf;
 }

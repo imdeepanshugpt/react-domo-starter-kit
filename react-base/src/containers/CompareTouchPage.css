@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #2e2e2e;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.notify-warning {
+  width: 100%;
+  background: #e65757;
+  color: #eeeeee;
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  z-index: 300;
+  top: 0;
+  left: 0;
+}
